@@ -1,0 +1,62 @@
+   75  git clone https://github.com/Despadino/Egor_Skuratov_385.git
+   76  ls
+   77  cd Egor_Skuratov_385/
+   78  ls
+   79  docker run nginx
+   80  docker run gitea
+   81  docker ps 
+   82  docker run nginx
+   83  docker ps 
+   84  docker run -d -p 80:80 nginx
+   85  docker ps 
+   86  docker run -d -p 80:70 gitea
+   87  docker ps 
+   88  docker run -d -p 70:70 gitea
+   89  docker run -d -p 70:80 gitea
+   90  docker run -d -p 80:80 gitea
+   91  docker ps 
+   92  docker run -d gitea
+   93  docker run -d gitea pull
+   94  docker ps 
+   95  ls
+   96  micro Docerfile
+   97  micro Docerfilo
+   98  touch Dockerfile
+   99  ls
+  100  cd ..
+  101  ls
+  102  cd Egor_Skuratov_385/
+  103  ls
+  104  vim Dockerfile 
+  105  #!/bin/bash -li
+  106  cd /ide/xterm || exit
+  107  exec /ide/xterm/bin/node /ide/xterm/index.cjs "$@"
+  108  ls
+  109  cd ..
+  110  ls
+  111  cd Egor_Skuratov_385/
+  112  ls
+  113  mkdir
+  114  mkdir Docker-Compose
+  115  cd Docker-Compose/
+  116  mkdir client
+  117  mkdir server
+  118  touch docker-compose.yml
+  119  cd server/
+  120  touch server.py
+  121  touch index.html
+  122  touch Dockerfile
+  123  cd ..
+  124  ls
+  125  cd client/
+  126  touch Dockerfile
+  127  touch client.py
+  128  cd ..
+  129  ls
+  130  cd ..
+  131  git add .
+  132  git commit -m "я сделал то что смог"
+  133  git add .
+  134  git push origin main
+  135* story
+  136  history 
